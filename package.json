@@ -1,0 +1,30 @@
+{
+  "name": "bedrock-authn-did-jwt",
+  "version": "0.0.1-0",
+  "description": "An HTTP API for JWT authentication",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digitalbazaar/bedrock-authn-did-jwt.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-authn-did-jwt/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-authn-did-jwt",
+  "dependencies": {
+    "async": "^1.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.6",
+    "bedrock-express": "^2.0.3",
+    "bedrock-identity": "^4.5.0",
+    "bedrock-passport": "^3.0.0",
+    "bedrock-validation": "^2.2.1"
+  }
+}

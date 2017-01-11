@@ -1,0 +1,27 @@
+{
+  "name": "bedrock-authn-did-jwt-test",
+  "version": "0.0.1-0",
+  "description": "An HTTP API for JWT authentication test",
+  "scripts": {
+    "ci-test": "node --preserve-symlinks test.js test --mocha-reporter=tap",
+    "test": "node --preserve-symlinks test.js test"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "bedrock": "^1.0.6",
+    "bedrock-express": "^2.0.0",
+    "bedrock-identity": "^4.5.0",
+    "bedrock-jwt-mongodb": "digitalbazaar/bedrock-jwt-mongodb#mongoRotate",
+    "bedrock-key": "^3.0.0",
+    "bedrock-mongodb": "^3.0.0",
+    "bedrock-passport": "^3.0.0",
+    "bedrock-permission": "^2.3.0",
+    "bedrock-redis": "^3.1.0",
+    "bedrock-server": "^2.0.0",
+    "bedrock-test": "^1.0.0",
+    "bedrock-validation": "^2.2.1",
+    "jsonwebtoken": "^7.2.1",
+    "passport-local": "^1.0.0",
+    "request": "^2.79.0"
+  }
+}
