@@ -14,8 +14,8 @@ describe('bedrock-authn-did-jwt API', () => {
           should.not.exist.err;
           authnDidJwt._verify(token, (err, result) => {
             should.not.exist.err;
-            should.exist(result['urn:bedrock.authn'].did);
-            result['urn:bedrock.authn'].did.should.equal(did);
+            should.exist(result['jwt.sub']);
+            result['jwt.sub'].should.equal(did);
             done();
           });
         });
