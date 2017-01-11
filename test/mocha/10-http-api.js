@@ -47,7 +47,7 @@ describe('bedrock-authn-did-jwt HTTP API', () => {
           body.should.be.an('object');
           should.exist(body.token);
           authnDidJwt._verify(body.token, (err, result) => {
-            result['jwt.sub'].should.equal(actor.identity.id);
+            result.sub.should.equal(actor.identity.id);
             done();
           });
         });
