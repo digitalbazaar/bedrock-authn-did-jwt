@@ -1,6 +1,6 @@
 {
   "name": "bedrock-authn-did-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "An HTTP API for JWT authentication",
   "main": "./lib",
   "repository": {
