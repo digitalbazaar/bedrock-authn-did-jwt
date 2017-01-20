@@ -26,7 +26,7 @@ roles['bedrock-auth-did-jwt.test'] = {
   ]
 };
 
-config['authn-did-jwt'].crossDomainAuthn.namespaces.RS256.key.id =
+config['authn-did-jwt'].crossDomainAuthn.namespaces.RS256.key =
   'did:1deb8074-8f4c-4a92-bc0f-de45e4b5bf58/keys/1';
 config['authn-did-jwt'].crossDomainAuthn.trustedRepositories
   .push('did:1deb8074-8f4c-4a92-bc0f-de45e4b5bf58');
