@@ -1,5 +1,10 @@
 # bedrock-authn-did-jwt ChangeLog
 
+## 1.0.2 - 2017-01-23
+
+### Fixed
+- Fix missing callback.
+
 ## 1.0.1 - 2017-01-20
 
 ### Fixed
