@@ -1,5 +1,10 @@
 # bedrock-authn-did-jwt ChangeLog
 
+## 1.0.3 - 2017-01-23
+
+### Changed
+- Remove console logging.
+
 ## 1.0.2 - 2017-01-23
 
 ### Fixed
